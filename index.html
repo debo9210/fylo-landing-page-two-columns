@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navBar">
+    <ul class="navItems">
+      <li class="items">Features</li>
+      <li class="items">Team</li>
+      <li>Sign In </li>
+    </ul>
+    <img class="logo" src="images/logo1.svg" alt="logo">
+  </nav>
+
+  <section id="firstSection">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 order-md-2">
+          <img class="imagedisplay" src="images/illustration-1.svg" alt="illustration">
+        </div>
+        <div class="col-sm-6 order-md-1">
+          <div class="topHeading">
+            <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
+            <p>Fylo stores your most important files in one secure location. 
+              Access them wherever you need, share and collaborate with friends, 
+              family, and co-workers.</p>
+            <input type="text" placeholder="Enter your email...">
+            <input type="submit" value="Get Started ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="imageSection">
+    <img src="images/bg-curve-desktop.svg" alt="">
+  </section>
+
+  <section id="secondSection">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 order-md-2">
+          <img class="imagedisplay" src="images/illustration-2.svg" alt="illustration2">
+        </div>
+        <div class="col-sm-6 order-md-1">
+          <div class="subHeading">
+            <h1 class="headingTwo">Stay productive, wherever you are</h1>
+            <p>Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.</p>
+            <p>
+              Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!</p>
+            <button>See how Fylo works  <img class="imgButton" src="images/icon-arrow.svg" alt=""></button>
+            <hr>
+            <div class="testimonial">
+              <img src="images/icon-quotes.svg" alt="quotes">
+              <p>
+                Fylo has improved our team productivity by an order of magnitude. Since 
+                making the switch our team has become a well-oiled collaboration machine.
+              </p>
+              <img class="avatar" src="images/avatar-testimonial.jpg" alt="testimonial">
+              <small><span>Kyle Burton</span>
+                Founder & CEO, Huddle</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="thirdSection">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thirdHeading">
+            <h3>Get early access today</h3>
+            <p>It only takes a minute to sign up and our free    starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thirdSection-input">
+            <input type="email" placeholder="email@example.com">
+            <input type="submit" value="Get Started For Free">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fourthSection">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="logoSide">
+            <li><img src="images/logo2.svg" alt="logo"></li>
+            <li class="phone"><small><img src="images/icon-phone.svg" alt="phone-icon"> Phone: +1-543-123-4567</small></li>
+            <li><small><img src="images/icon-email.svg" alt="email-icon"> example@fylo.com</small></li>
+          </ul>
+        </div>
+        <div class="col-md-3 others">
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="col-md-3 others">
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="col-md-3 others">
+          <div class="socials">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Debo9210</a>.
+    </p>
+  </footer>
+</body>
+</html>
